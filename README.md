@@ -8,7 +8,7 @@ Run: ./cast6 <options> <INPUT_FILE> <OUTPUT_FILE>
 ##### Options:
 | Key         | option      |                                        DESCRIPTION                                   |
 |:-----------:|:-----------:|:------------------------------------------------------------------------------------:|
-|  -m, --mode | \<MODE>     | Set mod of program. MODE may be <encrypt>, <decrypt>                                |
+|  -m, --mode | \<MODE>     | Set mod of program. MODE may be \<encrypt>, \<decrypt>                               |
 |  -k, --key  | \<KEY>      | Set key for encryption or decryption. Size must be 128, 160, 192, 224 or 256 bits.  |           
 |  -v, --iv   | \<IV>       | Set initialization vector. Size of IV must be 128 bits.                             |
 |  -i, --inp  |\<INPUT_FILE>| You can use this option ONLY with -k AND -v
