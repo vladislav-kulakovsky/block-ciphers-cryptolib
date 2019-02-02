@@ -27,4 +27,6 @@ std::string ECB::decrypt(std::string &cipher_text)
         std::string block = cipher_text.substr(i, blocksize);
         result += instance->decrypt(block);
     }
+
+    return result;
 }
