@@ -9,7 +9,7 @@ class ECB
 {
 private:
     CryptoInterface* instance;
-	uint8 blocksize;
+	uint32 blocksize;
 public:
     ECB(CryptoInterface* instance_);
 	std::string encrypt(std::string &plaint_text);
