@@ -97,6 +97,6 @@ std::string Blowfish::decrypt(const std::string &cipher_text) {
     return out;
 }
 
-unsigned int Blowfish::blocksize() const {
+std::uint32_t Blowfish::getBlockSize() const {
     return 64;
 }

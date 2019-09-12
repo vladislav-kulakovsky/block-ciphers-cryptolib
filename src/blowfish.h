@@ -18,7 +18,7 @@ public:
     void setKey(const std::string & key);
     std::string encrypt(const std::string &plain_text);
     std::string decrypt(const std::string &cipher_text);
-    unsigned int blocksize() const;
+    std::uint32_t getBlockSize() const;
 };
 
 #endif //__BLOWFISH_H__
